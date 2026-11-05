@@ -9,6 +9,8 @@ Book = *Operating System Concepts*, 10th ed.
 ## Phase 0 — Environment (Days 1–3)
 **Goal:** toolchain installed and verified.
 
+
+
 - [ ] WSL2 + Ubuntu 24.04 installed
 - [ ] `scripts/install-deps.sh` run
 - [ ] Cross-compiler built (`i686-elf-gcc --version` works)
