@@ -1,6 +1,6 @@
 # Paul OS
 
-A hobby operating system built from scratch, one concept at a time, as a learning project.
+A small operating system built from scratch, one concept at a time, as a learning project.
 
 The theory comes from *Operating System Concepts* (Silberschatz, Galvin, Gagne, 10th ed.). Every topic I read gets implemented in real code that boots on x86 hardware (emulated with QEMU), because building something is the best way to see why it matters.
 
