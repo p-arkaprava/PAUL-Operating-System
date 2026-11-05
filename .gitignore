@@ -1,0 +1,19 @@
+# Build output
+build/
+*.o
+*.elf
+*.bin
+*.iso
+*.img
+isodir/
+
+# Debug / logs
+*.log
+serial.txt
+
+# Editor / OS
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db

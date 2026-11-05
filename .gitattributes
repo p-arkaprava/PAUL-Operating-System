@@ -1,0 +1,6 @@
+# Force LF line endings — shell scripts, Makefiles and assembly break with CRLF in WSL
+* text=auto eol=lf
+*.sh  text eol=lf
+*.asm text eol=lf
+*.s   text eol=lf
+Makefile text eol=lf
