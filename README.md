@@ -132,6 +132,7 @@ qemu-system-i386
 
 A window should open showing **SeaBIOS → "No bootable device"**. That's the expected result: the emulator works and just has no OS yet. Close the window.
 
+
 - No window? Run `wsl --update` in PowerShell, then restart Ubuntu.
 - Fallback: `qemu-system-i386 -display curses` (quit with `Esc`, `2`, then type `quit`).
 
@@ -222,7 +223,7 @@ Detailed checklists are in [`docs/roadmap.md`](docs/roadmap.md).
 
 ## 4. Building & Running
 
-*Coming in Phase 1.* Once it's ready:
+*Coming  in Phase 1.* Once it's ready:
 
 ```bash
 make            # build the kernel + bootable ISO
