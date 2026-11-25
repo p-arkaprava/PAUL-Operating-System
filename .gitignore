@@ -3,3 +3,9 @@
 *.iso
 isodir/
 qemu.log
+build/
+*.o
+*.bin
+*.iso
+isodir/
+qemu.log
