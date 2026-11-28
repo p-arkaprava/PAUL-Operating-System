@@ -4,7 +4,7 @@ A small operating system built from scratch, one concept at a time, as a learnin
 
 The theory comes from *Operating System Concepts* (Silberschatz, Galvin, Gagne, 10th ed.). Every topic I read gets implemented in real code that boots on x86 hardware (emulated with QEMU), because building something is the best way to see why it matters.
 
-> **Status:** Phase 0 ✅ done · Phase 1 🚧 in progress. **Paul OS boots!** GRUB loads the kernel, which prints to the screen.
+> **Status:** Phase 0  ✅ done · Phase 1 🚧 in progress. **Paul OS boots!** GRUB loads the kernel, which prints to the screen.
 > **Goal:** first working prototype in 60 days, then keep improving it.
 > **Last updated:** 24 Nov 2026 (see the [Changelog](#6-changelog))
 
