@@ -13,7 +13,7 @@ git config --global core.autocrlf input
 ### `i686-elf-gcc: command not found`
 The cross-compiler isn't on your PATH. Run `source ~/.bashrc`, or check that `~/opt/cross/bin` exists. If it doesn't, the build didn't finish: re-run `bash scripts/build-cross-compiler.sh`.
 
-### GCC build fails with "configure: error: Building GCC requires GMP/MPFR/MPC"
+### GCC build  fails with "configure: error: Building GCC requires GMP/MPFR/MPC"
 Run `bash scripts/install-deps.sh` again (it installs `libgmp3-dev libmpc-dev libmpfr-dev`), then delete `~/src/build-gcc` and rebuild.
 
 ### GCC build gets killed (out of memory)
