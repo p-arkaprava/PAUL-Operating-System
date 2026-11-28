@@ -242,7 +242,7 @@ Detailed checklists are in [`docs/roadmap.md`](docs/roadmap.md).
 
 ---
 
-## 4. Building & Running
+## 4. Building &  Running
 
 Requires the i686-elf cross-compiler on your PATH plus `nasm`, the GRUB tools, `xorriso` and QEMU (see [Installation](#1-installation)). Run everything from `~/PaulOS` in Ubuntu.
 
@@ -264,7 +264,7 @@ boot.o + kernel.o + linker.ld + libgcc --i686-elf-gcc -T  ->  paulos.bin   (ELF3
 paulos.bin + grub.cfg --grub-mkrescue------------------->  paulos.iso
 ```
 
-**What you should see:**
+**What you should  see:**
 
 ```
 Hello from Paul OS!
@@ -280,7 +280,7 @@ Week 1 complete. CPU halting.
 
 ## 5. Resources
 
-- 📘 *Operating System Concepts*, 10th ed. (Silberschatz et al.): theory
+- 📘 *Operating System  Concepts*, 10th ed. (Silberschatz et al.): theory
 - 🌐 [OSDev Wiki](https://wiki.osdev.org/): practical how-to for every step
 - 📗 [xv6 book & source](https://pdos.csail.mit.edu/6.1810/): a small, readable real OS to compare against
 - 📙 [OSTEP: Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/): free and hands-on
